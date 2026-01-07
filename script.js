@@ -127,5 +127,6 @@ closeBtn.addEventListener("click", () => {
 });
 
 window.addEventListener("DOMContentLoaded", () => {
-    searchSongs("punjabi"); // yaha default query set
+    searchSongs("urdu lovely songs"); // yaha default query set
 });
+
