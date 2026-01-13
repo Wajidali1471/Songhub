@@ -21,8 +21,11 @@ songsRow.innerHTML = `
   <div class="text-center my-4">
   <span class="ms-2" style="color:white;">Loading</span>
     <div class="spinner-border spinner-border-sm text-light" role="status"></div>
-    
+  <div class="spinner-grow spinner-grow-sm" style="color:white;" role="status">
+ 
+</div>
   </div>
+
 `;
 
 
@@ -134,7 +137,7 @@ const randomSongs = [
     "sultan"
     ,
 
-    "lofi"
+    "lofi" 
 ];
 function getRandomSong() {
     const index = Math.floor(Math.random() * randomSongs.length);
